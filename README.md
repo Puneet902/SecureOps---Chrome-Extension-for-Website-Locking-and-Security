@@ -47,4 +47,4 @@ To get a copy of this project up and running on your local machine, follow these
 
 ## License
 
-[Your chosen license, e.g., Proprietary, MIT, etc.]
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
