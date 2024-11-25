@@ -1,0 +1,41 @@
+{
+    "manifest_version": 3,
+    "name": "SecureOps",
+    "version": "1.0",
+    "description": "Lock and secure websites with a master password",
+    "permissions": [
+      "storage",
+      "history",
+      "cookies",
+      "browsingData",
+      "webNavigation",
+      "activeTab",
+      "scripting"
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      }
+    },
+    "icons": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["registration.html", "blocked.html"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  

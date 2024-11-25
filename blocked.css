@@ -1,0 +1,138 @@
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #a5bce8, #4e085f); /* Your gradient background */
+    color: #333; /* Dark gray for text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+/* Main container */
+.container {
+    width: 40vw;
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    background-color: white; /* Contrast for the form */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Shield icon styling */
+.icon-container img {
+    width: 140px;
+    margin-bottom: 20px;
+}
+
+.shield-icon {
+    width: 100px;
+    height: auto;
+}
+
+/* Heading */
+h1 {
+    font-size: 1.8rem;
+    color: #070404;
+    margin-bottom: 10px;
+}
+
+/* Description text */
+.description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.description a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.description a:hover {
+    text-decoration: underline;
+}
+
+/* Form styling */
+form {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Input fields */
+form input[type="password"], 
+form input[type="url"] {
+    width: 80%; /* Consistent width for inputs */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+form input[type="password"]:focus, 
+form input[type="url"]:focus {
+    border-color: #4a90e2; /* Highlight on focus */
+    outline: none;
+}
+
+/* Form button */
+form button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue for action button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Unlock status message */
+#unlockStatus {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: red; /* Error status color */
+}
+
+/* Additional Buttons */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+.buttons button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styling */
+footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+}

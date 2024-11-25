@@ -1,0 +1,189 @@
+body{
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+    width: 400px;
+  
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #150b0b; /* White text color for contrast */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    }
+  .heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading img{
+    width: 20%;
+  }
+    
+    h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    }
+  
+    form {
+      display: flex;
+      font-weight: bold;
+      flex-direction: column;
+      align-items: center;
+      width: 80%;
+      max-width: 400px;
+      background: rgba(255, 255, 255, 0.2); /* Slight transparency for the form */
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+  
+    form input[type="url"] {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      outline:#524949;
+      border-radius: 5px;
+      font-size: 1rem;
+      box-sizing: border-box;
+      color: #333;
+    }
+  
+    form input[type="url"]:focus {
+      outline:#0f0e0e;
+      box-shadow: 0 0 5px rgba(12, 12, 12, 0.8);
+    }
+    
+  
+    form button {
+      width: 50%;
+      padding: 10px 15px;
+      margin-top: 10px;
+      background: #007bff;
+      color: white;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+  
+    form button:hover {
+      background: #0288d1; /* Darker blue on hover */
+    }
+  
+    #show-locked {
+      padding: 10px 15px;
+      margin-top: 20px;
+      background: #007bff; 
+      color: white;
+      font-size: 1rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+  
+    #show-locked:hover {
+      background: #0019f5; /* Darker orange on hover */
+    }
+  
+    #locked-sites-list {
+      margin-top: 20px;
+      width: 80%;
+      max-width: 400px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.2); /* Slight transparency for contrast */
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+  
+    #locked-sites-list h3 {
+      margin-bottom: 10px;
+      font-size: 1.2rem;
+      color: #151515;
+    }
+  
+    #locked-sites {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    
+    #locked-sites li {
+      margin: 5px 0;
+      color: #0f0e0e;
+      font-size: 1rem;
+    }
+  
+    #status {
+      margin-top: 10px;
+      font-size: 1rem;
+      color: #ffcccb; /* Light red for status messages */
+      text-align: center;
+    }
+  
+    button {
+      width: 90%;
+      padding: 10px;
+      margin-top: 10px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  
+    button:hover {
+      background-color: #0056b3;
+    }
+  
+    #locked-sites-list {
+      margin-top: 20px;
+    }
+  
+    label {
+      font-size: large;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    ul {
+      padding-left: 20px;
+    }
+    
+    li {
+      padding: 5px;
+    }
+  
+    
+    /* input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    #lockForm button{
+      justify-content: center;
+    }
+  
+    #lockForm input{
+      left: 0;
+      width: 90%;
+    }
+  
+    #locked-sites{
+  
+    } */

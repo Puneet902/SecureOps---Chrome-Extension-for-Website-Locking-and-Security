@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Locker</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <div class="heading">
+    <img src="icon.png" alt="">
+    <h1>SECUREOPS</h1>
+  </div>
+
+  <!-- Form to lock a new website -->
+  <form id="lockForm">
+    <label for="website">Website URL</label>
+    <input type="url" id="website" placeholder="Enter website URL" required />
+    <button type="submit">Lock Website</button>
+  </form>
+
+  <!-- Button to display locked websites -->
+  <button id="show-locked">Show Locked Websites</button>
+
+  <!-- Section to display locked websites -->
+  <div id="locked-sites-list" style="display: none;">
+    <h3>Locked Websites:</h3>
+    <ul id="locked-sites"></ul>
+  </div>
+
+  <p id="status"></p>
+</body>
+</html>

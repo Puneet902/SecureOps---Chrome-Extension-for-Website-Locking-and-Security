@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Protected</title>
+  <link rel="stylesheet" href="blocked.css">
+</head>
+<body>
+  <div class="container">
+    <div class="icon-container">
+      <img src="/icon.png" alt="Blocked Icon" class="shield-icon">
+    </div>
+    <h1>Website protected by SecureOps</h1>
+    <form id="unlockForm">
+      <label style="font-size: medium;" for="unlockPassword">Enter Password</label><br>
+      <input type="password" id="unlockPassword" required /><br><br>
+      <button type="submit">Unlock</button>
+    </form>
+    <div id="unlockStatus"></div>
+  </div>
+  <script src="blocked.js"></script>
+</body>
+</html>
